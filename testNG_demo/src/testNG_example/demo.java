@@ -1,5 +1,6 @@
 package testNG_example;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -20,5 +21,10 @@ public class demo {
 	public void testMethod1()
 	{
 		System.out.println("test Method");
+	}
+	@AfterMethod
+	public void afterMethod1()
+	{
+		System.out.println("after Method");
 	}
 }
