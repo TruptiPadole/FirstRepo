@@ -31,6 +31,6 @@ public class demo {
 	@AfterClass
 	public void aclass()
 	{
-		System.out.println("after class");
+		System.out.println("after class from server");
 	}
 }
